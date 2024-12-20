@@ -1,0 +1,2 @@
+# dCore
+French Spigot API
