@@ -1,0 +1,46 @@
+gui:
+  title: "Menu configuré"
+  rows: 3
+  items:
+    close:
+      material: "BARRIER"
+      name: "§cFermer le menu"
+      slots: ["11"]
+      action:
+        type: "close"
+
+    command:
+      material: "DIAMOND_SWORD"
+      name: "§6Exécuter /help"
+      slots: ["13"]
+      action:
+        type: "command"
+        data: "help"
+
+    suggest:
+      material: "BOOK"
+      name: "§eSuggérer /msg <nom>"
+      slots: ["15"]
+      action:
+        type: "suggest"
+        data: "msg <nom> Salut !"
+
+    website:
+      material: "PAPER"
+      name: "§bOuvrir le site"
+      slots: ["21"]
+      action:
+        type: "website"
+        data: "https://example.com"
+
+    another_gui:
+      material: "CHEST"
+      name: "§aOuvrir une autre GUI"
+      slots: ["23"]
+      action:
+        type: "gui"
+
+    decoration:
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: " "
+      slots: ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
