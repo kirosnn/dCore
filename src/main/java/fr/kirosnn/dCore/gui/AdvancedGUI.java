@@ -34,7 +34,7 @@ public class AdvancedGUI extends BaseGUI {
         ItemStack closeItem = createItem(Material.BARRIER, "§cFermer le menu");
         setItem(11, closeItem, closeAction(), null, null, loreItem1);
 
-        // Item 2 : Exécuter une commande
+        // Item 2 : Exécuter une commande en fermant le GUI
         ItemStack commandItem = createItem(Material.DIAMOND_SWORD, "§6Exécuter /help");
         setItem(13, commandItem, commandAction("help"), null, null, null);
 
